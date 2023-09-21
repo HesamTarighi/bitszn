@@ -1,0 +1,107 @@
+.subscribe {
+  background: var(--color-secondary);
+  text-align: center;
+  padding: 2.5rem 0;
+  margin-top: 8rem;
+}
+
+.subscribe-btn {
+  padding: 0.8rem 1.5rem !important;
+  border: 0;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background: var(--color-primary);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: var(--text-sm-size);
+  flex-shrink: 0;
+}
+
+.subscribe__wrapper {
+  max-width: 850px;
+}
+
+.subscribe__descr {
+  font-size: var(--text-md-size);
+  line-height: var(--text-md-lineheight);
+  color: #6f6f6f;
+  margin: 1.5rem 0 2rem;
+}
+
+.subscribe__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-sm-size);
+  margin-bottom: 2rem;
+}
+
+.subscribe__telegram {
+  display: inline-flex;
+  align-items: center;
+}
+
+.subscribe__telegram-text {
+  font-weight: 500;
+  margin: 0 1.25rem;
+}
+
+.subscribe__link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-color: #6f6f6f50;
+}
+
+.subscribe__link:hover {
+  text-decoration: underline;
+}
+
+.subscribe__link:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.subscribe__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe__input-wrap {
+  background: #fff;
+  margin-right: 0.625rem;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  width: 23rem;
+}
+
+.subscribe__input {
+  border: 0;
+  background: #fff;
+  width: 100%;
+  font-size: var(--text-sm-size);
+}
+
+.subscribe__input::placeholder {
+  color: #bebebe;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe__telegram {
+    margin-bottom: 1rem;
+  }
+
+  .subscribe__telegram-text {
+    margin: 0 0 0 0.5rem;
+  }
+
+  .subscribe__links {
+    flex-direction: column;
+  }
+
+  .subscribe__link:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

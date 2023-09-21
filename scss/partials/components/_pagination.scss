@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 2.5rem;
+}
+
+.pagination__element {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  background: #fff;
+  color: var(--color-black);
+}
+
+.pagination__element--disabled {
+  color: var(--color-ternary);
+}

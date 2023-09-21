@@ -1,0 +1,16 @@
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  gap: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+  .two-col-grid {
+    display: block;
+  }
+
+  .two-col-grid__child {
+    margin-bottom: 1.25rem;
+  }
+}

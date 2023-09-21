@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bitszn.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bitszn contains top faucets for crypto activities, snapshots, rpc endpoints and list of guides and testnet tools for all projects in crypto.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="/static/css/main.59043153.chunk.css" rel="stylesheet">
+  <link rel="stylesheet" href="scss/styles.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0ZBYX92HV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-V0ZBYX92HV');
+	</script>
+
+	<script id="mcjs">
+		! function (c, h, i, m, p) {
+			m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+		}(document, "script",
+			"https://chimpstatic.com/mcjs-connected/js/users/546f91a42830054f8e36fa6ab/2bf6a031624f5bdadf5e77509.js");
+	</script> -->
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrap">
+      <a href="index.html" class="header__logo"><svg class="logo__img" width="66" height="48" viewBox="0 0 66 48"
+          fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 30.5725V0H7.84505V6.56556H29.3667V30.5725H0ZM7.84505 24.0282H21.5002V13.1148H7.84505V24.0282Z"
+            fill="currentColor" />
+          <path d="M42.4642 0V4.3691H34.6191V0H42.4642ZM42.4642 6.56556V30.5725H34.6191V6.56556H42.4642Z"
+            fill="currentColor" />
+          <path d="M55.5826 6.56556H65.5496V13.1086H55.5826V24.0219H65.9995V30.5725H47.7363V2.19521H55.5826V6.56556Z"
+            fill="currentColor" />
+          <path d="M58.8675 34.607H50.2109V45.781H58.8675V34.607Z" fill="currentColor" />
+          <path d="M32.9922 41.6399H41.907V45.781H45.2361V30.5662H42.0355L32.9922 41.6399Z" fill="currentColor" />
+          <path d="M66.0006 30.5662H63.8535V45.781H66.0006V30.5662Z" fill="currentColor" />
+          <path d="M20.7636 45.781H23.6L32.913 34.607H24.0939V30.5662H20.7636V34.607H7.12109V35.8713H20.7636V45.781Z"
+            fill="currentColor" />
+          <path d="M2.14712 41.6399H15.777V40.0875H2.14712V30.5662H0V45.781H2.14712V41.6399Z" fill="currentColor" />
+          <path d="M66 45.781H0V48H66V45.781Z" fill="currentColor" />
+          <path d="M66 28.9674H0V31.1864H66V28.9674Z" fill="currentColor" />
+        </svg>
+      </a>
+
+      <label for="menuOpen" class="menu-btn">
+        <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px">
+          <path
+            d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+        </svg>
+      </label>
+      <input id="menuOpen" name="menuOpen" type="checkbox" class="menu-btn__input" />
+
+      <nav class="nav" id="nav">
+        <div class="nav__logo">
+          <a href="index.html" class="header__logo header__logo--nav"><svg class="logo__img" width="66" height="48"
+              viewBox="0 0 66 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 30.5725V0H7.84505V6.56556H29.3667V30.5725H0ZM7.84505 24.0282H21.5002V13.1148H7.84505V24.0282Z"
+                fill="currentColor" />
+              <path d="M42.4642 0V4.3691H34.6191V0H42.4642ZM42.4642 6.56556V30.5725H34.6191V6.56556H42.4642Z"
+                fill="currentColor" />
+              <path
+                d="M55.5826 6.56556H65.5496V13.1086H55.5826V24.0219H65.9995V30.5725H47.7363V2.19521H55.5826V6.56556Z"
+                fill="currentColor" />
+              <path d="M58.8675 34.607H50.2109V45.781H58.8675V34.607Z" fill="currentColor" />
+              <path d="M32.9922 41.6399H41.907V45.781H45.2361V30.5662H42.0355L32.9922 41.6399Z" fill="currentColor" />
+              <path d="M66.0006 30.5662H63.8535V45.781H66.0006V30.5662Z" fill="currentColor" />
+              <path
+                d="M20.7636 45.781H23.6L32.913 34.607H24.0939V30.5662H20.7636V34.607H7.12109V35.8713H20.7636V45.781Z"
+                fill="currentColor" />
+              <path d="M2.14712 41.6399H15.777V40.0875H2.14712V30.5662H0V45.781H2.14712V41.6399Z" fill="currentColor" />
+              <path d="M66 45.781H0V48H66V45.781Z" fill="currentColor" />
+              <path d="M66 28.9674H0V31.1864H66V28.9674Z" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+        <ul class="nav__menu">
+          <li><a href="events.html" class="menu__link menu__link--active">EVENTS</a></li>
+
+          <li><a href="snapshots.html" class="menu__link">SNAPSHOTS &amp; rpc</a></li>
+          <li><a href="faucets.html" class="menu__link">FAUCETS</a></li>
+          <li><a href="bots.html" class="menu__link">BOTS</a></li>
+          <li><a href="bots.html" class="menu__link">STAKING</a></li>
+          <li><a href="bots.html" class="menu__link">WIKI</a></li>
+          <li><a href="contact.html" class="menu__link">Contact us</a></li>
+        </ul>
+        <div class="social-lang__wrapper">
+          <ul class="nav__social">
+            <li>
+              <a href="#" class="social__link"><svg width="17" height="14" viewBox="0 0 17 14" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17 1.65726C16.375 1.93878 15.7025 2.12865 14.9968 2.21361C15.7173 1.7765 16.2698 1.08404 16.5304 0.258074C15.8564 0.663331 15.1104 0.95752 14.3156 1.11625C13.6796 0.429471 12.7731 0 11.7699 0C9.84406 0 8.28246 1.58237 8.28246 3.53447C8.28246 3.81108 8.31319 4.0807 8.3729 4.33984C5.47416 4.19224 2.90394 2.78541 1.18372 0.646991C0.883479 1.1687 0.711598 1.77579 0.711598 2.42414C0.711598 3.65022 1.32726 4.73219 2.26309 5.36586C1.69165 5.34733 1.15363 5.18824 0.683262 4.92348C0.682912 4.93816 0.682912 4.9532 0.682912 4.96818C0.682912 6.68032 1.88521 8.10846 3.48087 8.43373C3.18823 8.51419 2.8801 8.55759 2.56193 8.55759C2.33694 8.55759 2.11843 8.53551 1.90554 8.49395C2.34967 9.89799 3.63756 10.9202 5.16352 10.9485C3.96987 11.8965 2.46635 12.4617 0.832008 12.4617C0.550757 12.4617 0.272954 12.4449 0 12.412C1.5439 13.4153 3.37699 14 5.34645 14C11.762 14 15.2698 8.61455 15.2698 3.94393C15.2698 3.79071 15.2667 3.63796 15.2601 3.48622C15.9413 2.9889 16.5327 2.36612 17 1.65726Z"
+                    fill="currentColor" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link"><svg width="9" height="17" viewBox="0 0 9 17" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.94161 12.7338C5.94161 14.0929 5.93811 15.4519 5.94512 16.8143C5.94512 16.9627 5.91008 17.0032 5.75243 16.9998C4.5508 16.9931 3.34916 16.9931 2.14402 16.9998C1.97937 16.9998 1.94083 16.956 1.94083 16.8008C1.94434 14.0996 1.94434 11.395 1.94784 8.69381C1.94784 8.54543 1.91981 8.49147 1.75165 8.49485C1.21915 8.50496 0.690152 8.49485 0.157649 8.50159C0.0350331 8.50159 0 8.46787 0 8.34984C0.00350331 7.49664 0.00700662 6.64008 0 5.78688C0 5.65536 0.0490461 5.62838 0.171662 5.63176C0.704165 5.6385 1.23316 5.62838 1.76567 5.6385C1.91631 5.64187 1.94784 5.59466 1.94784 5.4564C1.94083 4.70437 1.94083 3.94897 1.94784 3.19695C1.95485 2.54609 2.09148 1.92896 2.49085 1.38265C2.91475 0.80261 3.50331 0.451889 4.19346 0.239434C4.70845 0.0809354 5.24095 0.0134892 5.77696 0.0101169C6.79292 -0.00337232 7.80888 0.00674462 8.82483 3.21608e-09C8.96847 3.21608e-09 9 0.04384 9 0.17536C8.9965 1.05216 8.99299 1.92896 9 2.80576C9 2.95077 8.95446 2.98112 8.81082 2.98112C8.16972 2.97438 7.52511 2.97775 6.884 2.97775C6.31997 2.97775 5.95212 3.33521 5.95212 3.87141C5.95212 4.40424 5.95562 4.94043 5.94862 5.47326C5.94862 5.60141 5.98715 5.63513 6.11678 5.63513C7.01713 5.63176 7.91397 5.63513 8.81433 5.62838C8.95095 5.62838 9 5.65873 8.98248 5.797C8.88089 6.6738 8.80031 7.5506 8.63916 8.42066C8.61814 8.52857 8.54807 8.50159 8.48501 8.50159C7.95251 8.50159 7.42351 8.50159 6.89101 8.50159C6.63527 8.50159 6.37602 8.50834 6.12028 8.49822C5.97665 8.49147 5.93461 8.53194 5.93811 8.67358C5.94161 10.0259 5.94161 11.3782 5.94161 12.7338Z"
+                    fill="currentColor" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/bitszn" class="social__link"><svg width="20" height="16" viewBox="0 0 20 16"
+                  fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.2835 0.380442L1.45331 6.49071C0.304618 6.92452 0.311431 7.52759 1.24393 7.7965L5.44145 9.0297L7.04751 13.6646C7.24276 14.1719 7.14651 14.3731 7.71245 14.3731C8.1492 14.3731 8.34295 14.1857 8.5862 13.962C8.74089 13.8195 9.65933 12.979 10.6848 12.0405L15.051 15.077C15.8545 15.4942 16.4346 15.2781 16.6347 14.3746L19.5007 1.6617C19.7942 0.554344 19.0522 0.0520529 18.2835 0.380442ZM6.1002 8.74637L15.5614 3.12775C16.0337 2.85813 16.4668 3.00309 16.1112 3.30018L8.00995 10.1804L7.69451 13.3472L6.1002 8.74637Z"
+                    fill="currentColor" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <select class="nav__lang">
+            <option>ENG</option>
+            <option>RUS</option>
+          </select>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="content relative">
+    <div class="gray-bg"></div>
+    <div class="wrapper">
+
+      <nav class="breadcrumbs"><span class="breadcrumbs__root">BitSzn</span> / Events</nav>
+
+      <div class="banner-small">
+        <div class="banner-small__title-wrap">
+          <div class="banner__logo banner__logo--small">
+            <img src="./img/logos/guru.png" alt="">
+          </div>
+          <div class="banner__title--small">
+            <h2>The Abyss</h2>
+            <span>(ABYSS)</span>
+            <span>(ethereum)</span>
+          </div>
+        </div>
+
+        <div class="banner-small__social-title">
+          <div>
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+            <img src="./img/discord.png">
+          </div>
+          <div class="social-title__follow-link">
+              <a href="/">
+                <svg viewBox="0 0 25 25" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.3455 7.4146L5.32393 11.7791C4.50344 12.0889 4.5083 12.5197 5.17438 12.7118L8.1726 13.5926L9.31979 16.9033C9.45925 17.2657 9.3905 17.4094 9.79475 17.4094C10.1067 17.4094 10.2451 17.2755 10.4189 17.1157C10.5293 17.0139 11.1854 16.4136 11.9179 15.7432L15.0366 17.9122C15.6105 18.2102 16.0249 18.0558 16.1678 17.4105L18.2149 8.32979C18.4245 7.53882 17.8946 7.18004 17.3455 7.4146ZM8.64314 13.3903L15.4011 9.37696C15.7385 9.18438 16.0478 9.28792 15.7939 9.50013L10.0072 14.4145L9.78193 16.6766L8.64314 13.3903Z"
+                    fill="currentcolor"
+                  />
+                </svg>
+                <span>FOLLOW</span>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="voice-container">
+          <div class="three-col-grid">
+            <div class="filter">
+              <div class="filter__search">
+                <input type="text" name="searchEvent" id="searchEvent" placeholder="Activity search"
+                  class="filter__search-input" />
+    
+                <button class="filter__search-btn">
+                  <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10.998" cy="8" r="7" stroke="#E7E7E7" stroke-width="2" />
+                    <rect x="5.24023" y="12" width="2" height="6" transform="rotate(45 5.24023 12)" fill="#E7E7E7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+            <div class="three-col-grid__child">
+              <div>The Abyss Ambassador programm</div>
+              <div>
+                <span>21 May 2018 - 21 May 2018</span>
+                <span>Voice</span>
+              </div>
+              <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et neque sapiente voluptatem voluptas ad soluta, laborum nostrum consequatur culpa. At magni enim nesciunt, beatae ex hic fugit non deleniti.</div>
+            </div>
+          </div>
+          <div class="voice-container__voice-box">
+            <div class="voice-box__voice-title">
+              <h1>Voice for BTSZN</h1>
+            </div>
+
+            <div class="voice-box__voice-main">
+              <div class="voice-box__voice-list-container">
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__poster"><img src="./img/discord.png" alt=""></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/discord.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__poster"><img src="./img/discord.png" alt=""></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/discord.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__poster"><img src="./img/discord.png" alt=""></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/discord.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__poster"><img src="./img/discord.png" alt=""></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/discord.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="voice-box__voice-list-container2">
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/plus.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/plus.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/plus.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span><img src="./img/plus.png" alt=""></span>
+                      <span>04:39</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="voice-box__voice-list-container3">
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span>320 kbs</span>
+                      <span><img src="./img/clock.png" alt=""> <span> 04:39 </span></span>
+                      <span><button> <img src="./img/download.png" alt=""> </button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span>320 kbs</span>
+                      <span><img src="./img/clock.png" alt=""> <span> 04:39 </span></span>
+                      <span><button> <img src="./img/download.png" alt=""> </button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span>320 kbs</span>
+                      <span><img src="./img/clock.png" alt=""> <span> 04:39 </span></span>
+                      <span><button> <img src="./img/download.png" alt=""> </button></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="voice-list-container__voice-list">
+                  <div class="voice-list__child1">
+                    <div class="voice-list__child1__btn"><button><img src="./img/play.png"></button></div>
+                    <div class="voice-list__child1__title">
+                      <span>Unknown</span>
+                      <span>Unknown voice</span>
+                    </div>
+                  </div>
+                  <div class="voice-list__child2">
+                    <div class="voice-list__child2__options">
+                      <span>320 kbs</span>
+                      <span><img src="./img/clock.png" alt=""> <span> 04:39 </span></span>
+                      <span><button> <img src="./img/download.png" alt=""> </button></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <section class="subscribe">
+    <div class="wrapper subscribe__wrapper">
+      <h4 class="title title--bold">Subscribe</h4>
+      <p class="subscribe__descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</p>
+      <div class="subscribe__links">
+        <div class="subscribe__telegram">
+          <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17.9787 0.0974287L0.899996 6.09907C-0.265653 6.52517 -0.258739 7.11752 0.68753 7.38165L4.94701 8.59292L6.57678 13.1454C6.77492 13.6437 6.67724 13.8413 7.25154 13.8413C7.69474 13.8413 7.89135 13.6572 8.13819 13.4375C8.29516 13.2976 9.22716 12.472 10.2678 11.5502L14.6985 14.5327C15.5138 14.9425 16.1024 14.7302 16.3055 13.8428L19.2138 1.35591C19.5116 0.268239 18.7587 -0.225123 17.9787 0.0974287ZM5.61548 8.31463L15.2164 2.79589C15.6957 2.53107 16.1351 2.67345 15.7743 2.96526L7.55343 9.72312L7.23334 12.8336L5.61548 8.31463Z"
+              fill="#4A72FF" />
+          </svg>
+
+          <span class="subscribe__telegram-text">Follow us on telegram:</span>
+        </div>
+        <a class="subscribe__link" href="#" target="_blank" rel="noopener noreferrer">Russian community</a>
+        <a class="subscribe__link" href="#" target="_blank" rel="noopener noreferrer">English community</a>
+        <a class="subscribe__link" href="#" target="_blank" rel="noopener noreferrer">Announcment channel</a>
+      </div>
+      <form class="subscribe__form">
+        <div class="subscribe__input-wrap">
+          <input class="subscribe__input" type="email" name="email" id="email" placeholder="Your email" />
+        </div>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <ul class="footer__links">
+        <li><a href="#" class="footer__link">Contact us</a></li>
+        <li><a href="#" class="footer__link">Contact us</a></li>
+        <li><a href="#" class="footer__link">Contact us</a></li>
+        <li><a href="#" class="footer__link">Contact us</a></li>
+      </ul>
+      <p class="footer__copy">&copy; 2022 No rights reserved</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

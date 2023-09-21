@@ -1,0 +1,256 @@
+button {
+    cursor: pointer;
+}
+
+.voice-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+}
+
+.voice-container > div:last-child {
+    grid-column-start: 2 span;
+}
+
+.voice-box__voice-title h1 {
+    margin: 0;
+}
+
+.voice-box__voice-list-container {
+    width: 100%;
+    padding-top: 115px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.voice-box__voice-list-container::before {
+    content: '';
+    width: 3%;
+    height: 100%;
+    background-color: #87ceeb20;
+    position: absolute;
+    right: 4%;
+}
+
+.voice-box__voice-list-container .voice-list-container__voice-list {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1.2rem;
+    border: 1px solid #00000020;
+}
+
+.voice-box__voice-list-container .voice-list__child1 {
+    display: flex;
+}
+
+.voice-box__voice-list-container .voice-list__child1__poster img {
+    width: 65px;
+    object-fit: cover;
+}
+
+.voice-box__voice-list-container .voice-list__child1__title {
+    padding: .6rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.voice-box__voice-list-container .voice-list__child1__title span:first-child {
+    font-weight: 550;
+}
+
+.voice-box__voice-list-container .voice-list__child1__title span:last-child {
+    opacity: .8;
+}
+
+.voice-box__voice-list-container .voice-list__child2__options img {
+    width: 40px;
+}
+
+.voice-box__voice-list-container .voice-list__child2__options {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+// Container 2
+
+.voice-box__voice-list-container2 {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.voice-box__voice-list-container2::before {
+    content: '';
+    width: 1%;
+    height: 100%;
+    background-color: #80808010;
+    position: absolute;
+    right: 0;
+}
+
+.voice-box__voice-list-container2 .voice-list-container__voice-list {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1.2rem;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1 {
+    display: flex;
+    align-items: center;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1__btn button {
+    background: transparent;
+    border: 2px solid #00000020;
+    border-radius: 10000px;
+    padding: .3rem .3rem;
+    display: flex;
+    align-items: center;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1__btn button img {
+    width: 30px;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1__title {
+    padding: .6rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1__title span:first-child {
+    font-weight: 550;
+}
+
+.voice-box__voice-list-container2 .voice-list__child1__title span:last-child {
+    opacity: .8;
+}
+
+.voice-box__voice-list-container2 .voice-list__child2__options img {
+    width: 40px;
+}
+
+.voice-box__voice-list-container2 .voice-list__child2__options {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.voice-box__voice-list-container2 .voice-list__child2__options img {
+    width: 25px;
+}
+
+.voice-box__voice-list-container2 .voice-list__child2__options:last-child {
+    opacity: .7;
+}
+
+// Container 3
+
+.voice-box__voice-list-container3 {
+    width: 99%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-top: 1px solid #00000020;
+    padding: 0 2.5rem;
+}
+
+.voice-box__voice-list-container3::before {
+    content: '';
+    width: 2%;
+    height: 100%;
+    background-color: #80808010;
+    position: absolute;
+    right: 0;
+}
+
+.voice-box__voice-list-container3::after {
+    content: '';
+    width: 1%;
+    height: 110%;
+    background-color: #000;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.voice-box__voice-list-container3 .voice-list-container__voice-list {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+    border-bottom: 1px solid #00000020;
+}
+
+.voice-box__voice-list-container3 .voice-list__child1 {
+    display: flex;
+    align-items: center;
+}
+
+.voice-box__voice-list-container3 .voice-list__child1__btn button {
+    background: #00000010;
+    border: transparent;
+    border-radius: 10000px;
+    padding: .3rem .3rem;
+    display: flex;
+    align-items: center;
+}
+
+.voice-box__voice-list-container3 .voice-list__child1__btn button img {
+    width: 30px;
+}
+
+.voice-box__voice-list-container3 .voice-list__child1__title {
+    padding: .6rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.voice-box__voice-list-container3 .voice-list__child1__title span:last-child {
+    font-weight: 550;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options img {
+    width: 40px;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options img {
+    width: 25px;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options span:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options span:nth-child(2) img {
+    opacity: .2;
+}
+
+.voice-box__voice-list-container3 .voice-list__child2__options:last-child button {
+    background: #00000010;
+    border: transparent;
+    border-radius: 6px;
+    padding: .3rem .3rem;
+    display: flex;
+    align-items: center;
+}

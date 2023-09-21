@@ -1,0 +1,23 @@
+.title {
+  font-size: var(--text-xl-size);
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.title--events {
+  margin-bottom: 1rem;
+}
+
+.title--bold {
+  font-weight: 700;
+}
+
+.text--md {
+  font-size: var(--text-md-size);
+  line-height: var(--text-md-lineheight);
+}
+
+.text--gray {
+  color: var(--color-text-gray);
+}

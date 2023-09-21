@@ -1,0 +1,36 @@
+.tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  gap: 0.625rem;
+  padding: 0.125rem 0.625rem;
+  border-radius: 99px;
+  color: #fff;
+  font-size: var(--text-sm-size);
+  margin-bottom: 0.3rem;
+}
+
+.tag--blue {
+  background-color: #5fc2e1;
+}
+
+.tag--purple {
+  background-color: #be79e9;
+}
+
+.tag--orange {
+  background-color: #f8a55a;
+}
+
+.tag--green {
+  background-color: #54e3a7;
+}
+
+.tag--red {
+  background-color: #e36e54;
+}
+
+.tag--d-blue {
+  background-color: #547ce3;
+}
